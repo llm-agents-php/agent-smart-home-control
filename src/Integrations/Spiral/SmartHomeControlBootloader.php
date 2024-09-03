@@ -7,6 +7,7 @@ namespace LLM\Agents\Agent\SmartHomeControl\Integrations\Spiral;
 use LLM\Agents\Agent\AgentRegistryInterface;
 use LLM\Agents\Agent\SmartHomeControl\ControlDeviceTool;
 use LLM\Agents\Agent\SmartHomeControl\GetDeviceDetailsTool;
+use LLM\Agents\Agent\SmartHomeControl\GetRoomListTool;
 use LLM\Agents\Agent\SmartHomeControl\ListRoomDevicesTool;
 use LLM\Agents\Agent\SmartHomeControl\SmartHome\SmartHomeSystem;
 use LLM\Agents\Agent\SmartHomeControl\SmartHomeControlAgent;
@@ -31,8 +32,8 @@ final class SmartHomeControlBootloader extends Bootloader
         );
 
         $tools->register(
+            new GetRoomListTool($smartHomeSystem),
             new ControlDeviceTool($smartHomeSystem),
-            new GetDeviceDetailsTool($smartHomeSystem),
             new GetDeviceDetailsTool($smartHomeSystem),
             new ListRoomDevicesTool($smartHomeSystem),
         );
