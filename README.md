@@ -4,7 +4,11 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/llm-agents-php/agent-smart-home-control.svg?style=flat-square)](https://packagist.org/packages/llm-agents-php/agent-smart-home-control)
 [![Total Downloads](https://img.shields.io/packagist/dt/llm-agents-php/agent-smart-home-control.svg?style=flat-square)](https://packagist.org/packages/llm-agents-php/agent-smart-home-control)
 
-Hey there! 👋 This package gives you a cool Site Status Checker Agent for your LLM Agents project.
+Hey there! 👋 This package gives you a cool Smart Home control system that you can use in your LLM Agents project. It's
+built to work seamlessly with the LLM Agents platform, so you can easily integrate it into your project and start
+controlling your smart home devices in no time.
+
+> You can read an article about Smart Home control system with LLM Agents on [Medium](https://butschster.medium.com/a-php-devs-dream-an-ai-home-that-really-gets-you-dd97ae2ca0b0).
 
 ![image](https://github.com/user-attachments/assets/405275f8-a180-4134-806d-bc7287e779dc)
 
