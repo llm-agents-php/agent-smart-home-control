@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace LLM\Agents\Agent\SmartHomeControl;
 
 use LLM\Agents\Agent\SmartHomeControl\SmartHome\SmartHomeSystem;
+use LLM\Agents\Tool\PhpTool;
 
 /**
  * @extends PhpTool<GetRoomListInput>
