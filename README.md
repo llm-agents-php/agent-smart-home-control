@@ -1,8 +1,8 @@
 # Smart Home control system with LLM Agents
 
-[![PHP](https://img.shields.io/packagist/php-v/llm-agents-php/agent-smart-home-control.svg?style=flat-square)](https://packagist.org/packages/llm-agents-php/agent-smart-home-control)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/llm-agents-php/agent-smart-home-control.svg?style=flat-square)](https://packagist.org/packages/llm-agents-php/agent-smart-home-control)
-[![Total Downloads](https://img.shields.io/packagist/dt/llm-agents-php/agent-smart-home-control.svg?style=flat-square)](https://packagist.org/packages/llm-agents-php/agent-smart-home-control)
+[![PHP](https://img.shields.io/packagist/php-v/llm-agents/agent-smart-home-control.svg?style=flat-square)](https://packagist.org/packages/llm-agents/agent-smart-home-control)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/llm-agents/agent-smart-home-control.svg?style=flat-square)](https://packagist.org/packages/llm-agents/agent-smart-home-control)
+[![Total Downloads](https://img.shields.io/packagist/dt/llm-agents/agent-smart-home-control.svg?style=flat-square)](https://packagist.org/packages/llm-agents/agent-smart-home-control)
 
 This nifty tool lets you boss around your smart home devices using plain old English. No more fumbling with apps or
 remembering device names!
@@ -30,7 +30,7 @@ want and makes it happen.
 First things first, let's get this package installed:
 
 ```bash
-composer require llm-agents-php/agent-smart-home-control
+composer require llm-agents/agent-smart-home-control
 ```
 
 ### Setup in Spiral Framework
